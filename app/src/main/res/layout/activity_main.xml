@@ -10,13 +10,17 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="396dp"
         android:text="Ingresa la contraseña, al menos 8 digitos."
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="396dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="577dp"
         android:text="Calculadora Para Ingenieros"
         android:textAlignment="center"
         android:textSize="34sp"
@@ -26,15 +30,17 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="178dp"
         android:text="Ingresar"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="505dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -52,9 +58,11 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="374dp"
         android:layout_height="62dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="335dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
