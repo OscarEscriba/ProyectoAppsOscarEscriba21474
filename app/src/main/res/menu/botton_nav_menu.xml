@@ -4,10 +4,10 @@
     <item android:title="Home"
         android:icon="@drawable/baseline_home_24"
         android:id="@+id/Home"/>
-    <item android:title="Calculadora"
+    <item android:title="calculadora"
         android:icon="@drawable/baseline_calculate_24"
         android:id="@+id/calculadora"/>
-    <item android:title="Mas"
+    <item android:title="mas"
         android:icon="@drawable/baseline_read_more_24"
         android:id="@+id/mas"/>
 </menu>
