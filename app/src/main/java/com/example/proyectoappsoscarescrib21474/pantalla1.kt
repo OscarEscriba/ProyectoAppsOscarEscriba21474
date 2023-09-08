@@ -13,10 +13,18 @@ class Pantalla1: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = Pantalla1Binding.inflate(layoutInflater)
         setContentView(binding.root)
+        replaceFragment(Home())
 
         //los eventos onclik para ir cambiando   entre cada una de las siguientes partes del menu...
         binding.bottomNavigationView.setOnItemSelectedListener {
-
+            when(it.itemId) {
+                R.id.Home -> replaceFragment(Home())
+                R.id.calculadora ->replaceFragment(calculadora())
+                R.id.mas -> replaceFragment(mas())
+                else -> {
+                }
+            }
+            true
         }
     }
     private fun replaceFragment(fragment: Fragment) {
