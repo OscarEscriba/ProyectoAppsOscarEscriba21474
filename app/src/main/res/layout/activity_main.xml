@@ -49,8 +49,8 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="224dp"
         android:ems="10"
+        android:hint="Nombre"
         android:inputType="text"
-        android:text="Nombre"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,6 +61,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginBottom="335dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
