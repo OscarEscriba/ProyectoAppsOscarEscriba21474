@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767622995722",
+    "project_id": "laboratorio10atenticacion",
+    "storage_bucket": "laboratorio10atenticacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767622995722:android:80bcd54593b56a0aebe4f3",
+        "android_client_info": {
+          "package_name": "com.example.proyectoappsoscarescrib21474"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHyUF7aDKLj13zaUzqSqCTaAUbGOcV-Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
