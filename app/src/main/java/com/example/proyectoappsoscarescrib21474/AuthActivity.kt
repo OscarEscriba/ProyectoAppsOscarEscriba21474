@@ -62,7 +62,7 @@ class AuthActivity: AppCompatActivity() {
         dialog.show()
     }
     private fun showHome(email: String, provider: ProviderType){
-        val intent = Intent(this, Home::class.java).apply {
+        val intent = Intent(this, Pantalla1::class.java).apply {
             putExtra("email",email)
             putExtra("provider", provider.name)
         }

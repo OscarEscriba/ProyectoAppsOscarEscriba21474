@@ -1,10 +1,13 @@
 package com.example.proyectoappsoscarescrib21474
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +37,27 @@ class mas : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_mas, container, false)
+        val view = inflater.inflate(R.layout.fragment_mas, container, false)
+        //--------Botones para enviar las cosas---------------------
+        val btnInEle: Button = view.findViewById(R.id.ButtonInElec)
+        btnInEle.setOnClickListener {
+            val uri = Uri.parse("https://www.youtube.com/watch?v=kHZ8SD7jiiA&list=PLTIdiuUvwYCHQe19DgjiingeKulmq5drf")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+        val btnInQ: Button = view.findViewById(R.id.ButtonIngQ)
+        btnInQ.setOnClickListener {
+            val uri = Uri.parse("https://www.youtube.com/watch?v=-JJyweKseeE&list=PLfVlEQZrO3q2G1RhlhuQ7iMu_04xYSqwD")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+        val btnInS: Button = view.findViewById(R.id.ButtonIngS)
+        btnInS.setOnClickListener {
+            val uri = Uri.parse("https://www.youtube.com/watch?v=o_78Ue_EUeI&list=PL2Z95CSZ1N4HLqf215jj9ZJgmWIXm7gOo")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+        return view
     }
 
     companion object {

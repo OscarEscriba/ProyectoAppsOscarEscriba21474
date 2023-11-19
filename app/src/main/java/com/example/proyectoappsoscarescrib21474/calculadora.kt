@@ -1,10 +1,12 @@
 package com.example.proyectoappsoscarescrib21474
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -21,6 +23,8 @@ class calculadora : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
+    //--------botones para mandar a llamar las otras paginas-----------------------------
+    //-----------------------------------------------------------------------------------
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -34,7 +38,36 @@ class calculadora : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_calculadora, container, false)
+        val view = inflater.inflate(R.layout.fragment_calculadora, container, false)
+        //---------------botones para cambiar de actividad-----------------------------
+        //encuentra el boton en el disenio
+        val btnPantallaDeCalculadora: Button = view.findViewById(R.id.button2)
+        //configurar un OnClickListerner para el boton
+        btnPantallaDeCalculadora.setOnClickListener{
+            val intent = Intent(requireContext(), CalculadoraActivity::class.java)
+            startActivity(intent)
+        }
+        //encuentra el boton para el diseño...
+        val btnPantallaDeConversionesE: Button = view.findViewById(R.id.button3)
+        btnPantallaDeConversionesE.setOnClickListener{
+            val intet = Intent(requireContext(), ConversionesE::class.java)
+            startActivity(intet)
+        }
+        //boton para la tabla periodica...
+        val btnPantallaTablaPeriodica: Button = view.findViewById(R.id.button4)
+        btnPantallaTablaPeriodica.setOnClickListener{
+            val intent = Intent(requireContext(), TablaP::class.java)
+            startActivity(intent)
+        }
+        //boton para la parte de conversiones fisicas...
+        val btnPantallaConversionesF: Button = view.findViewById(R.id.button5)
+        btnPantallaConversionesF.setOnClickListener {
+            val intent = Intent(requireContext(), ConversionesF::class.java)
+            startActivity(intent)
+        }
+        //------------------------------------------------------------------------------
+        return view
+
     }
 
     companion object {

@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".mas">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView3"
+        android:layout_width="410dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="casual"
+        android:shadowColor="#9C27B0"
+        android:text="PLAYLIST QUE TE PUEDEN INTERESAR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonInElec"
+        android:layout_width="254dp"
+        android:layout_height="80dp"
+        android:text="Videos de Ing. Electronica"
+        android:translationX="75dp"
+        android:translationY="180dp"
+        app:icon="@drawable/baseline_electric_bolt_24" />
+
+    <Button
+        android:id="@+id/ButtonIngQ"
+        android:layout_width="238dp"
+        android:layout_height="89dp"
+        android:text="Ingenieria Quimica"
+        android:translationX="80dp"
+        android:translationY="330dp"
+        app:icon="@drawable/baseline_science_24" />
+
+    <Button
+        android:id="@+id/ButtonIngS"
+        android:layout_width="246dp"
+        android:layout_height="95dp"
+        android:text="Ingenieria en Sistemas"
+        android:translationX="80dp"
+        android:translationY="500dp"
+        app:icon="@drawable/baseline_computer_24" />
+
 
 </FrameLayout>

@@ -2,4 +2,71 @@
     <string name="app_name">ProyectoAppsOscarEscribá21474</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="electric_conversions">
+        Voltaje (Tensión):
+        1 Voltio(V) =1 Julios por Culombio(J/C)
+        1 Kilovoltio(kV) = 1000V
+        1 Megavoltio(MV) = 1,000,000V
+
+        Corriente:
+        1 Amperio(A) = 1 Culombio por Segundo(C/s)
+        1 Miliamperio(mA) = 0.001 A
+        1 Kiloamperio(kA) = 1000 A
+
+        Resistencia:
+        1 Ohmio(Ω) = 1 Voltio por Amperio (V/A)
+        1 Kilohmio(kΩ) = 1000 Ω
+        1 Megaohmio(MΩ) = 1,000,000 Ω
+
+        Potencia:
+        1 Vatio(W) = 1 Julios por Segundo (J/s)
+        1 Kilovatio(kW) = 1000 W
+        1 Megavatio(MW) = 1,000,000 W
+
+        Capacidad(Capacitancia):
+        1 Faradio(F) = 1 Culombio por Voltio (C/V)
+        1 Microfaradio(µF) = 0.000001 F
+        1 Nanofaradio(nF) = 0.000000001 F
+        1 Picofaradio(pF) = 0.000000000001 F
+
+        Inductancia:
+        1 Henry(H) = 1 Voltio por Amperio por Segundo (V/(A·s))
+        1 Microhenry(µH) = 0.000001 H
+        1 Millihenry(mH) = 0.001 H
+
+        Frecuencia:
+        1 Hertz(Hz) = 1 Ciclo por Segundo (c/s)
+        1 Kilohertz(kHz) = 1000 Hz
+        1 Megahertz(MHz) = 1,000,000 Hz
+    </string>
+    <string name="fisisc_convertions" >
+        Longitud:
+        1 kilómetro (km) = 1000 metros
+        1 pulgada (in) = 2.54 centímetros
+        Masa:
+        1 kilogramo (kg) = 1000 gramos (g)
+        1 libra (lb) = 0.453592 kilogramos
+        Tiempo:
+        1 segundo (s) = 1000 milisegundos (ms)
+        Área:
+        1 metro cuadrado (m²) = 10000 centímetros cuadrados (cm²)
+        1 kilómetro cuadrado (km²) = 1,000,000 metros cuadrados
+        Volumen:
+        1 litro (L) = 1000 centímetros cúbicos (cm³)
+        1 metro cúbico (m³) = 1000 litros
+        Temperatura:
+        Celsius (°C) y Fahrenheit (°F) tienen una relación lineal con una diferencia de punto de partida y factor de escala.
+        Presión:
+        1 pascal (Pa) = 1 newton por metro cuadrado (N/m²)
+        1 atmósfera (atm) ≈ 101325 pascales
+        Energía:
+        1 joule (J) = 1 newton-metro (N·m)
+        1 caloría (cal) = 4.184 joules
+        Potencia:
+        1 vatio (W) = 1 joule por segundo (J/s)
+        1 caballo de fuerza (hp) ≈ 745.7 vatios
+        Velocidad:
+        1 metro por segundo (m/s) = 3.6 kilómetros por hora (km/h)
+        1 milla por hora (mph) ≈ 0.447 metros por segundo
+    </string>
 </resources>

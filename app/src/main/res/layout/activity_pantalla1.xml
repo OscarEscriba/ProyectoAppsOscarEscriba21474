@@ -14,6 +14,27 @@
         android:layout_marginTop="1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextTask"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:hint="Ingrese una tarea" />
+
+        <Button
+            android:id="@+id/btnAddTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTask"
+            android:layout_marginTop="65dp"
+            android:text="Agregar tarea" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTasks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnAddTask"
+            android:layout_marginTop="120dp" />
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
