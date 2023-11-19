@@ -23,7 +23,7 @@ class Home : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-
+//aqui empieza la funcion asi como si fuese una clase main...
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -39,7 +39,7 @@ class Home : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
-
+//---------creo que esta parte de aqui no la vamos a utilizar--------------
     companion object {
         /**
          * Use this factory method to create a new instance of
@@ -59,4 +59,5 @@ class Home : Fragment() {
                 }
             }
     }
+    //-----------no lo vamos a utilizar (CREO)------------------------------------
 }
